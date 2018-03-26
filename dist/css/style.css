@@ -39,3 +39,34 @@
   border-left: 1px solid #A9A9A9;
   border-right: 1px solid #A9A9A9;
 }
+
+.container {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.container .block {
+  width: 1150px;
+  height: 500px;
+  background: #DCDCDC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .block .sample {
+  width: 600px;
+  height: 120px;
+  text-align: center;
+  align-self: center;
+}
+.container .block .sample p:first-child {
+  font-size: 40px;
+  color: #000;
+  display: block;
+  margin-bottom: 20px;
+}
+.container .block .sample p {
+  font-size: 20px;
+  color: #808080;
+}
