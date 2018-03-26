@@ -22,18 +22,18 @@
   display: flex;
   justify-content: flex-start;
 }
-.header-button {
+.header-meny-ul li {
   width: 100px;
   height: 40px;
   display: block;
   text-align: center;
   padding: 10px 0;
 }
-.header-button a {
+.header-meny-ul li a {
   text-decoration: none;
   color: #000;
 }
-.header-button:hover {
+.header-meny-ul li:hover {
   border-top: 2px solid #000;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
