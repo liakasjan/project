@@ -11,39 +11,39 @@
 
 	&-meny {
 		width: 1150px;		
-		background: #ccc;
-		border-radius: 10px;		
-
+		
 		&-ul {
 			width: 100%;
 			height: 40px;
-			background: #ccc;					
+			background: #DCDCDC;					
 			border-radius: 10px;
-			border-bottom: 2px solid #000;
+			border: 1px solid #A9A9A9;
 			display: flex;
 			justify-content: flex-start;
+		}
+	}
 
-			li {
-			width: 100px;
-			height: 40px;				
-			display: block;
-			text-align: center;				
-			padding: 10px 0;
+	&-button {
+		width: 100px;
+		height: 40px;				
+		display: block;
+		text-align: center;				
+		padding: 10px 0;
 
-				a {
-				text-decoration: none;
-				color: #000;
-				}
-
-				&:hover {
-				border-top: 2px solid #000;
-				border-left: 1px solid #000;
-				border-right: 1px solid #000;
-				} 
-			}
+		&:first-child:hover {			
+				border-left: none;
+				border-right: 1px solid #A9A9A9;
+			 
 		}
 
-	
+		a {
+			text-decoration: none;
+			color: #808080;			
+		}
+
+		&:hover {			
+			border-left: 1px solid #A9A9A9;
+			border-right: 1px solid #A9A9A9;
+		} 
 	}
-	
 }
