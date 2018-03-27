@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
 }
-.button .button-gradient-color {
+.button-gradient-color {
   display: block;
   width: 80px;
   height: 40px;
@@ -18,7 +18,7 @@
   text-decoration: none;
   color: #fff;
 }
-.button .button-gradient {
+.button-gradient {
   display: block;
   width: 80px;
   height: 40px;
@@ -70,6 +70,51 @@
 .header-button:hover {
   border-left: 1px solid #A9A9A9;
   border-right: 1px solid #A9A9A9;
+}
+
+.container-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-img .block-img {
+  width: 1150px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-img .block-img .img {
+  width: 535px;
+  height: 310px;
+  background: #DCDCDC;
+  margin: 25px 0;
+}
+.container-img .block-img .text {
+  width: 535px;
+  height: 310px;
+  margin: 25px 0;
+}
+.container-img .block-img .text .Heading {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 15px;
+}
+.container-img .block-img .text .Subheading {
+  font-size: 20px;
+  display: block;
+  margin: 15px 0;
+}
+.container-img .block-img .text .button-gradient-color {
+  margin: 20px 0;
+  text-align: center;
+  display: block;
+  width: 70px;
+  height: 30px;
+  background: linear-gradient(to bottom, #B0C4DE 0%, #6495ED 36%, #1E90FF 100%);
+  padding: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #4169E0;
+  text-decoration: none;
+  color: #fff;
 }
 
 .container {
