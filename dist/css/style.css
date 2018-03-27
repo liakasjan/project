@@ -1,4 +1,4 @@
-.buttons {
+.button {
   width: 600px;
   height: 40px;
   text-align: center;
@@ -6,7 +6,8 @@
   display: flex;
   justify-content: center;
 }
-.buttons .button-color {
+.button .button-gradient-color {
+  display: block;
   width: 80px;
   height: 40px;
   background: linear-gradient(to bottom, #B0C4DE 0%, #6495ED 36%, #1E90FF 100%);
@@ -14,20 +15,17 @@
   border-radius: 5px;
   border: 1px solid #4169E0;
   margin: 0 5px;
-}
-.buttons .button-color a {
   text-decoration: none;
   color: #fff;
 }
-.buttons .button {
+.button .button-gradient {
+  display: block;
   width: 80px;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #A9A9A9;
   padding: 10px 0;
   background: linear-gradient(to bottom, #DCDCDC 0%, #D3D3D3 36%, #C0C0C0 100%);
-}
-.buttons .button a {
   text-decoration: none;
   color: #000;
 }
@@ -104,3 +102,4 @@
   font-size: 20px;
   color: #808080;
 }
+
