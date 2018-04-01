@@ -35,13 +35,15 @@
 			border-bottom: @border-bottom;
 			display: flex;
 			justify-content: flex-start;
+
 		}
 	}
 
-	&-button {						
+	&-button {	
+		border: 1px solid transparent;
 
 		&:first-child:hover {			
-			border-left: none;
+			border-left: 1px solid transparent;
 			border-right: @border;	
 			border-top-left-radius: 5px;
 			border-bottom-left-radius: 	5px;				 
@@ -50,11 +52,12 @@
 		a {			
 			text-decoration: none;
 			color: @text-color;	
-			width: 100px;
-			height: 40px;			
+			height: 40px;
+			margin: 0 18px;			
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			
 		}
 
 		&:hover {			
