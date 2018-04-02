@@ -1,5 +1,5 @@
 .button {
-  width: 150px;
+  width: 170px;
   align-self: center;
   display: flex;
   justify-content: space-between;
@@ -27,6 +27,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.button .button-gradient-color-big {
+  width: 80px;
+  height: 40px;
+}
+.button .button-gradient-big {
+  width: 80px;
+  height: 40px;
 }
 * {
   box-sizing: border-box;
@@ -82,7 +90,7 @@
   justify-content: center;
 }
 .container-img .block-img {
-  width: 960px;
+  width: 951px;
   height: 310px;
   margin: 25px 0;
   display: flex;
@@ -101,6 +109,9 @@
 }
 .container-img .block-img .text {
   width: 45%;
+}
+.container-img hr {
+  border: 1px solid #e6e6e6;
 }
 .container {
   width: 100%;
