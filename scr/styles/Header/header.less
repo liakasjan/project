@@ -22,34 +22,17 @@
 	padding: 10px 0;
 
 	&-meny {
-		width: 50%;		
-		
-		&-ul {
-			width: 100%;
-			height: 40px;
-			background: @button-gradient;					
-			border-radius: 5px;
-			border-left: @border;
-			border-top: @border;
-			border-right: @border;
-			border-bottom: @border-bottom;
-			display: flex;
-			justify-content: flex-start;
+		width: 50%;	
+		display: flex;
+		justify-content: flex-start;
+		background: @button-gradient;					
+		border-radius: 5px;
+		border-left: @border;
+		border-top: @border;
+		border-right: @border;
+		border-bottom: @border-bottom;	
 
-		}
-	}
-
-	&-button {	
-		border: 1px solid transparent;
-
-		&:first-child:hover {			
-			border-left: 1px solid transparent;
-			border-right: @border;	
-			border-top-left-radius: 5px;
-			border-bottom-left-radius: 	5px;				 
-		}
-
-		a {			
+		a {
 			text-decoration: none;
 			color: @text-color;	
 			height: 40px;
@@ -57,7 +40,28 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			
+		}
+		
+		&-ul {
+			width: 100%;
+			height: 40px;			
+			display: flex;
+			justify-content: flex-start;
+		}
+	}
+
+	&-button {	
+		border: 1px solid transparent;
+
+		
+		a {			
+			text-decoration: none;
+			color: @text-color;	
+			height: 40px;
+			margin: 0 18px;			
+			display: flex;
+			justify-content: center;
+			align-items: center;			
 		}
 
 		&:hover {			
